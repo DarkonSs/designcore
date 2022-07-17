@@ -399,3 +399,16 @@
   color: #808080;
   transition: 0.3s;
 }
+
+.notfound_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 106.5px;
+  margin-top: 106.5px;
+}
+
+.notfound_text {
+  font-size: 100px;
+}
