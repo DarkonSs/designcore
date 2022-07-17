@@ -1,0 +1,39 @@
+.faq {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(243 250 254);
+  user-select: none;
+  font-size: 13px;
+  margin: 20px;
+  padding: 1rem 2rem;
+  width: 90%;
+  border-radius: 10px;
+  border: 0.1px solid #e1e9ed;
+}
+
+.faq:hover {
+  background-color: #dfe8f0;
+  transition: 0.2s;
+}
+
+.Hr2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 0.1px solid #bfc8cd;
+}
+
+.faq p {
+  padding: 0px;
+}
+
+.faq-pregunta {
+  font-size: 11.5px;
+  display: flex;
+  align-items: center;
+}
+
+.faqIconNewTab {
+  display: flex;
+  justify-content: flex-end!important;
+}

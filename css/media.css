@@ -1,0 +1,153 @@
+@media (max-width: 1020px) {
+  .loginDiscord {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 748px) {
+  .loginDiscord {
+    margin-left: 50px;
+  }
+}
+
+/* @media (max-width: 840px) {
+    .button {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .button2 {
+        display: inline-flex;
+        justify-content: center;
+        margin-right: 20px;
+        background-color: rgb(255, 73, 73);
+        border: none;
+        color: white;
+        padding: 15px;
+        border-radius: 7px;
+        font-size: 25px;
+        margin-top: 5;
+    }
+}
+
+@media (max-width: 1540px) {
+    .logo {
+        left: 27%;
+    }
+}
+
+@media (max-width: 1330px) {
+    .logo {
+        left: 21%;
+    }
+}
+
+@media (max-width: 1330px) {
+    .mt {
+        left: 47%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .logo {
+        left: 17%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .mt {
+        left: 45%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .logo {
+        left: 13%;
+    }
+}
+
+@media (max-width: 950px) {
+    .logo {
+        left: 8%;
+    }
+}
+
+@media (max-width: 840px) {
+    .logo {
+        width: 250;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+    }
+}
+
+@media (max-width: 840px) {
+    .mt {
+        text-align: center;
+        position: absolute;
+        top: 35%;
+        transform: translate(-40%, 30%);
+    }
+}
+
+@media (max-width: 370px) {
+    .mt {
+        font-size: 10;
+    }
+
+    .tmts {
+        font-size: 40;
+    }
+}
+
+@media (max-width: 742px) {
+    .button2 {
+        display: flex;
+    }
+}
+
+@media (max-width: 550px) {
+    .svbtn {
+        display: none;
+    }
+
+    .nav a {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 920px) {
+    .info1 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1315px) {
+    .info1 {
+        width: 60%;
+    }
+
+    .info2 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 730px) {
+    .info1 {
+        width: 100%;
+    }
+
+    .info2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 405px) {
+    .SCT {
+        width: 100%;
+    }
+}
+
+ */

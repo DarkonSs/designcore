@@ -1,0 +1,69 @@
+var datos3 = document.getElementById('faq-main-header')
+
+datos3.innerHTML = `<div class="navbar">
+  <ul class="nav1">
+    <a class="dclogo" href="../Home.html">
+      <img src="../IMG/DCLOGO_white.png" alt="" width="30">
+    </a>
+    <a class="svbtn" href="../Home.html">Home</a>
+    <a class="svbtn currentPlace" href="main-page.html">FAQ</a>
+
+    <div class="dropdown">
+      <a class="svbtn">Server Items <img class="arrow" src="../IMG/arrow_down.png" alt=""></a>
+      <div class="dropdown-content">
+        <div class="dropdown-content1">
+          <a href="../server_items/official_rules.html">Official Rules</a>
+          <a href="../server_items/roles_info.html">Roles Info</a>
+          <a href="../server_items/emojis_list.html">Emojis List</a>
+        </div>
+        <div class="dropdown-content2">
+          <a href="../server_items/games_assets.html">Game Assets</a>
+          <a href="../server_items/server_information.html">Server Information</a>
+          <a href="../server_items/materials_resources.html">Materials & Resources...</a>
+        </div>
+      </div>
+    </div>
+
+    <a class="svbtn bb" href="#">Join Us <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
+    <a class="svbtn bb" href="#">Discord Bot <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
+  </ul>
+  <ul class="nav2">
+    <a class="svbtn bb Darkons" href="../DarkonS.html"><img class="AA" src="../IMG/face.png" alt=""> DarkonS</a>
+  </ul>
+</div>
+</div>
+`
+var datos4 = document.getElementById('server-items-header')
+
+datos4.innerHTML = `<div class="navbar">
+  <ul class="nav1">
+    <a class="dclogo" href="../Home.html">
+      <img src="../IMG/DCLOGO_white.png" alt="" width="30">
+    </a>
+    <a class="svbtn" href="../Home.html">Home</a>
+    <a class="svbtn currentPlace" href="../faq/main-page.html">FAQ</a>
+
+    <div class="dropdown">
+      <a class="svbtn" href="/about.html">Server Items <img class="arrow" src="../IMG/arrow_down.png" alt=""></a>
+      <div class="dropdown-content">
+        <div class="dropdown-content1">
+          <a onclick="window.location.href = 'official_rules.html'">Official Rules</a>
+          <a onclick="window.location.href = 'roles_info.html'">Roles Info</a>
+          <a onclick="window.location.href = 'emojis_list.html'">Emojis List</a>
+        </div>
+        <div class="dropdown-content2">
+          <a onclick="window.location.href = 'games_assets.html'">Game Assets</a>
+          <a onclick="window.location.href = 'server_information.html'">Server Information</a>
+          <a onclick="window.location.href = 'materials_resources.html'">Materials & Resources...</a>
+        </div>
+      </div>
+    </div>
+
+    <a class="svbtn bb" href="#">Join Us <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
+    <a class="svbtn bb" href="#">Discord Bot <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
+  </ul>
+  <ul class="nav2">
+    <a class="svbtn bb Darkons" href="../DarkonS.html"><img class="AA" src="../IMG/face.png" alt=""> DarkonS</a>
+  </ul>
+</div>
+`
