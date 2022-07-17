@@ -24,8 +24,8 @@ datos3.innerHTML = `<div class="navbar">
       </div>
     </div>
 
-    <a class="svbtn bb" href="#">Join Us <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
-    <a class="svbtn bb" href="#">Discord Bot <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
+    <a class="svbtn bb" onclick="window.open('https://discord.gg/PxRQGY5YD8')">Join Us <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
+    <a class="svbtn bb" onclick="window.open('../bot.html')">Discord Bot <img class="AA" src="../IMG/open_new_tab.png" alt=""></a>
   </ul>
   <ul class="nav2">
     <a class="svbtn bb Darkons" href="../DarkonS.html"><img class="AA" src="../IMG/face.png" alt=""> DarkonS</a>
