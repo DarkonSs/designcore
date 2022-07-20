@@ -86,7 +86,7 @@
   <script type="text/javascript">
 
 (async () => {
-  var cnt = await fetch('https://dc-server-side.herokuapp.com/')
+  var cnt = await fetch('https://dc-server-side.herokuapp.com/' || 'https://dc-server-side-2.herokuapp.com/')
   const data = await cnt.json()
   console.log(data);
 
