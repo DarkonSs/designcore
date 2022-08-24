@@ -1,0 +1,242 @@
+@media (max-width: 1045px) {
+  .cards {
+    flex-direction: column !important;
+  }
+
+  .primeros, .segundos, .terceros {
+    flex-wrap: nowrap !important;
+    justify-content: center;
+  }
+
+  .card {
+    width: 500px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .primeros, .segundos, .terceros {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .barra, .nav2 {
+    display: none !important;
+  }
+
+  .hamb {
+    display: block !important;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 800px) {
+  .seccion {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1500px) {
+  .DCT a {
+    font-size: 13px !important;
+  }
+
+  .DCT h1 {
+    font-size: 40px !important;
+  }
+
+  .DCT p {
+    font-size: 18px !important;
+  }
+
+  .discordScreen {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .all-content {
+    margin: 15px;
+  }
+
+  .discordScreen {
+    display: none;
+  }
+}
+
+@media (max-width: 735px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .contactFooter {
+    padding: 10px !important;
+  }
+
+  .quick-linksFooter {
+    padding: 10px !important;
+  }
+
+  .socialsFooter {
+    flex-direction: row !important;
+  }
+}
+
+@media (max-width: 522px) {
+  .footer {
+    justify-content: flex-start !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .IVTMBTN {
+    padding: 3px!important;
+  }
+  .DCT a {
+    font-size: 11px !important;
+    padding: 6px !important;
+  }
+
+  .DCT h1 {
+    font-size: 25px !important;
+  }
+
+  .DCT p {
+    font-size: 13px !important;
+  }
+
+  .introText {
+    font-size: 0.8rem !important;
+  }
+
+  .exclamacion {
+    padding: 3px 8px 3px 8px !important;
+  }
+
+  .faq-pregunta h2 {
+    font-size: 1rem !important;
+  }
+
+  .introText h1, .heading__title {
+    font-size: 20px !important;
+  }
+
+  .Grid-Middle {
+    padding-top: 20px !important;
+  }
+
+  .main-container {
+    margin-top: 20px !important;
+  }
+
+  .loalto, .desc {
+    font-size: 13px !important;
+  }
+
+  .card {
+    width: 95% !important;
+    height: 150px !important;
+    padding: 10px !important;
+  }
+
+  .Hr {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .top-header-icon {
+    display: none;
+  }
+
+  .otherPages {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .without_development {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 730px) {
+  .without_development {
+    font-size: 15px !important;
+  }
+
+  .without_development img {
+    width: 400px !important;
+  }
+
+  .YY {
+    margin: 7px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .without_development {
+    font-size: 13px !important;
+    text-align: center;
+  }
+
+  .without_development img {
+    width: 360px !important;
+  }
+
+  .YY {
+    font-size: 12px !important;
+  }
+
+  .back-to {
+    visibility: hidden;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .without_development {
+    font-size: 11px !important;
+  }
+
+  .without_development img {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 940px) {
+  .Grid-Middle {
+    margin: 10px !important;
+  }
+}
+
+@media (max-width: 790px) {
+  .Mat {
+    align-items: flex-start!important;
+    flex-direction: column;
+  }
+  .Iz {
+    width: auto!important;
+  }
+}
+
+@media (max-width: 890px) {
+  .gameTextPage {
+    flex-direction: column!important;
+    align-items: flex-start!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .gImg {
+    width: 350px!important;
+  }
+}
+@media (max-width: 410px) {
+  .GameInfo, .gamesDownText {
+    font-size: 0.8rem!important;
+  }
+  .gImg {
+    width: 300px!important;
+  }
+}

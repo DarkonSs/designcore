@@ -1,0 +1,92 @@
+
+.IVTMBTN {
+  text-align: center;
+  background-color: #252b34;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.IVTMBTN:hover {
+  background-color: #343d4a;
+  transition: 0.2s;
+}
+
+.designcore-header-red {
+  background-image: url(DiscordScEditBlur.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px 0 30px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+.all-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discordScreen  {
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+.DCT {
+  color: white;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.DCT h1 {
+  font-size: 50px;
+}
+
+.DCT p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  margin-bottom: 15;
+}
+
+.hero-tags {
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+.hero-tags .badge-info {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.tag {
+  margin: 2px 0;
+  padding: 5px 8px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.badge {
+  color: #fff;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge:hover {
+  background-color: rgba(0, 0, 0, 0.10);
+  transition: 0.4s;
+}
+
+.top-header-icon {
+  margin: 30px;
+}
+
+.otherPages {
+  text-align: left;
+}

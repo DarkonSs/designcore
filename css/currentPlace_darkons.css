@@ -1,0 +1,16 @@
+#main-header > div > ul.nav2 > a {
+  border: none;
+  padding: 13px 15px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: #252b34;
+}
+
+#main-header > div > ul.nav2 > a:hover {
+  background-color: #343d4a;
+  transition: 0.2s;
+}
+
+.bb {
+  padding: 7px 10px;
+}

@@ -1,0 +1,126 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content='DesignCore Bot Page'>
+  <meta property="og:site_name" content='DesignCore'>
+  <meta property="og:description" content='This page is made for DesignCore the bot of Design Core, this bot was created to serve Design Core server but we decided to make it public so that everyone can take advantage of it.'>
+  <meta property="og:image" content="https://cdn.discordapp.com/attachments/754248467207159849/948308316138930256/DCLOGO.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+
+  <title>DesignCore</title>
+  <link href="../css/style.css" rel="stylesheet" />
+  <link href="../css/media.css" rel="stylesheet" />
+  <link href="../css/header.css" rel="stylesheet" />
+  <link href="../css/designcore-header-red.css" rel="stylesheet" />
+  <link href="../css/container.css" rel="stylesheet" />
+
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/754248467207159849/948308431016718417/ff08a5ed3eef6796c3c4c9463997f809.png" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    const crate = new Crate({
+      server: '808777076769030174',
+      channel: '808778024086405180'
+    })
+
+    crate.notify('Hello, do you need help?')
+  </script> -->
+
+</head>
+
+<body>
+  <header id="server-items-header" class="header"></header>
+
+  <div class="container">
+
+    <div class="Grid-Middle">
+
+      <div class="introText">
+        <h1 class="title">Server Information</h1>
+
+        <div class="DesignCoreInfo">
+          <li><b>Owner</b>: <a class="DarkonSHref" href="../DarkonS.html">DarkonS</a></li>
+          <li><b>Server Discord ID</b>: 808777076769030174</li>
+          <li><b>Created Date</b>: February 9, 2021 8:11 PM</li>
+          <li><b>Primary Language</b>: en-US</li>
+        </div>
+
+        <div class="DesignCoreInfo">
+          <li><b>Total Members</b>: <span id="TotalM"></span></li>
+          <li><b>Online Members</b>: <span id="OnlineM"></span></li>
+          <li><b>Bots</b>: <span id="BotM"></span></li>
+        </div>
+
+        <div class="DesignCoreInfo">
+          <li><b>Total Channels</b>: <span id="TotalC"></span></li>
+          <li><b>Catgory Channels</b>: <span id="CategoryC"></span></li>
+          <li><b>Voice Channels</b>: <span id="VoiceC"></span></li>
+        </div>
+
+        <div class="DesignCoreInfo">
+          <li><b>Roles</b>: <span id="Roles"></span></li>
+          <li><b>Emojis</b>: <span id="Emojis"></span></li>
+          <li><b>Stickers</b>: <span id="Stickers"></span></li>
+        </div>
+
+        <div id="dcinfo">
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="server-items-footer" class="footer"></footer>
+
+    <p class="ultimoPar">WEBSITEㅤ●ㅤDESIGNCORE 2022</p>
+
+  </div>
+
+  <script type="text/javascript" src="../server_items.js"></script>
+  <script type="text/javascript" src="../server_items_footer.js"></script>
+  <script type="text/javascript" src="../hamb-menu.js"></script>
+
+  <script type="text/javascript">
+
+(async () => {
+  var cnt = await fetch('http://localhost:5000/')
+  const data = await cnt.json()
+  console.log(data);
+
+  var TotalM = document.getElementById('TotalM');
+  TotalM.innerHTML = `${data.total_members}`
+
+  var OnlineM = document.getElementById('OnlineM');
+  OnlineM.innerHTML = `${data.online_members}`
+
+  var BotM = document.getElementById('BotM');
+  BotM.innerHTML = `${data.bots}`
+
+  var TotalC = document.getElementById('TotalC');
+  TotalC.innerHTML = `${data.channels}`
+
+  var CategoryC = document.getElementById('CategoryC');
+  CategoryC.innerHTML = `${data.categories}`
+
+  var VoiceC = document.getElementById('VoiceC');
+  VoiceC.innerHTML = `${data.voice_channels}`
+
+  var Roles = document.getElementById('Roles');
+  Roles.innerHTML = `${data.roles}`
+
+  var Emojis = document.getElementById('Emojis');
+  Emojis.innerHTML = `${data.emojis}`
+
+  var Stickers = document.getElementById('Stickers');
+  Stickers.innerHTML = `${data.stickers}`
+})()
+
+  </script>
+
+</body>
+
+</html>
