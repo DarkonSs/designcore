@@ -44,7 +44,7 @@ datos3.innerHTML = `
   </div>
 
   <section class="seccion hidden-section" id="section">
-    <a class="svbtn currentPlace" href="Home.html">Home</a>
+    <a class="svbtn currentPlace" href="../Home.html">Home</a>
     <a class="svbtn" href="../faq/main-page.html">FAQ</a>
 
     <div class="dropdown drop-in-section">
