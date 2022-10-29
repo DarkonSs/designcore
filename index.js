@@ -9,21 +9,21 @@ datos2.innerHTML = `
 
     <div class="barra">
 
-    <a class="svbtn currentPlace" href="Home.html">Home</a>
-    <a class="svbtn" href="faq/main-page.html">FAQ</a>
+    <a class="svbtn currentPlace" href="Home">Home</a>
+    <a class="svbtn" href="faq/main-page">FAQ</a>
 
     <div class="dropdown">
       <a class="svbtn">Server Items <img class="arrow" src="IMG/arrow_down.png" alt=""></a>
       <div class="dropdown-content">
         <div class="dropdown-content1">
-          <a href="server_items/official_rules.html">Official Rules</a>
-          <a href="server_items/roles_info.html">Roles Info</a>
-          <a href="server_items/emojis_list.html">Emojis List</a>
+          <a href="server_items/official_rules">Official Rules</a>
+          <a href="server_items/roles_info">Roles Info</a>
+          <a href="server_items/emojis_list">Emojis List</a>
         </div>
         <div class="dropdown-content2">
-          <a href="server_items/games_assets.html">Game Assets</a>
-          <a href="server_items/server_information.html">Server Information</a>
-          <a href="server_items/materials_resources.html">Materials & Resources...</a>
+          <a href="server_items/games_assets">Game Assets</a>
+          <a href="server_items/server_information">Server Information</a>
+          <a href="server_items/materials_resources">Materials & Resources...</a>
         </div>
       </div>
     </div>
