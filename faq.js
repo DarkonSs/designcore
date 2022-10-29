@@ -8,7 +8,7 @@ datos3.innerHTML = `<div class="navbar">
 
     <div class="barra">
 
-    <a class="svbtn" href="../Home.html">Home</a>
+    <a class="svbtn" href="../">Home</a>
     <a class="svbtn currentPlace" href="main-page.html">FAQ</a>
 
     <div class="dropdown">
